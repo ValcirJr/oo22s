@@ -13,7 +13,7 @@ public class Maquina {
     * */
     private String modelo;
     private String marca;
-    private LocalDate ultimaManutencao;
+    private LocalDate uManutencao;
     private Double valorDeVenda;
     private Double valorDeCompra;
 
@@ -27,7 +27,7 @@ public class Maquina {
     public Maquina(String modelo, String marca, LocalDate ultimaManutencao, Double valorDeVenda, Double valorCompra) {
         this.modelo = modelo;
         this.marca = marca;
-        this.ultimaManutencao = ultimaManutencao;
+        this.uManutencao = ultimaManutencao;
         this.valorDeVenda = valorDeVenda;
         this.valorDeCompra = valorCompra;
     }
@@ -46,11 +46,11 @@ public class Maquina {
         this.modelo = modelo;
     }
 
-    public LocalDate getUltimaManutencao() {
-        return ultimaManutencao;
+    public LocalDate getuManutencao() {
+        return uManutencao;
     }
 
-    public void setUltimaManutencao(LocalDate ultimaManutencao) {
-        this.ultimaManutencao = ultimaManutencao;
+    public void setuManutencao(LocalDate uManutencao) {
+        this.uManutencao = uManutencao;
     }
 }

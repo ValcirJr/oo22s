@@ -14,7 +14,7 @@ public class ChecaManutencao {
     }
 
     private static LocalDate getDataManutencaoNecessaria(Maquina maquina, int mesesParaManutencao) {
-        return maquina.getUltimaManutencao().plusMonths(mesesParaManutencao);
+        return maquina.getuManutencao().plusMonths(mesesParaManutencao);
     }
 
 
