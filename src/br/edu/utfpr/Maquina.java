@@ -15,7 +15,7 @@ public class Maquina {
     private String marca;
     private LocalDate ultimaManutencao;
     private Double valorDeVenda;
-    private Double valorCompra;
+    private Double valorDeCompra;
 
     /*
     * construtor, método que gera um objeto dessa classe
@@ -29,7 +29,7 @@ public class Maquina {
         this.marca = marca;
         this.ultimaManutencao = ultimaManutencao;
         this.valorDeVenda = valorDeVenda;
-        this.valorCompra = valorCompra;
+        this.valorDeCompra = valorCompra;
     }
 
     /*
