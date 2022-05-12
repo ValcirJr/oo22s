@@ -1,25 +1,22 @@
 package br.edu.utfpr;
+/*
+Criar programa orientado à objetos para solucionar os seguintes casos de uso:
+- Será o controle de uma biblioteca
+- Desenvolver método para a locação de livro
+- deverá validar se livro está disponível
+- Método para reserva de livro
+- Validá se há alguma reserva para data e se estará disponível
+- Método para devolução do livro
+- Válida se a data da entrega é anterior a data máxima
+- caso tenha vencido calcular 50 centavos ao dia até 20 reais, depois 1 real por dia
 
-import java.time.LocalDate;
+ */
+
+
 
 public class Main {
 
     public static void main(String[] args) {
-        TelevisaoNova televisaoNova = new TelevisaoNova("LG OLED", 55);
-        Televisao televisaoAntiga = new TelevisaoAntiga("Caixa", 12);
-        ControleRemoto controleRemoto =
-                new ControleRemotoNovo(televisaoNova);
-
-        System.out.println("Ligando televisão nova");
-        televisaoNova.ligar();
-        System.out.println(televisaoNova.getLigada());
-
-        System.out.println("\n\n\nLigando televisão antiga");
-        televisaoAntiga.ligar();
-        System.out.println(televisaoAntiga.getLigada());
-
-        controleRemoto.desligarPeloControle();
-        System.out.println("TV nova ligada: " + televisaoNova.getLigada());
 
     }
 
